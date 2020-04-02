@@ -1,0 +1,71 @@
+social > div:nth-child(1n)
+{
+background-color:#ff0000;
+}
+social > div:nth-child(2n)
+{
+background-color:#4267B2;
+}
+social > div:nth-child(3n)
+{
+background-color:#db4a39;
+}
+social > div:nth-child(4n)
+{
+background-color:#1da1f2;
+}
+
+
+
+
+social > div:nth-child(1n):hover
+{
+background-color:#dd0000;
+}
+social > div:nth-child(2n):hover
+{
+background-color:#204590;:hover
+}
+social > div:nth-child(3n):hover
+{
+background-color:#b92817;
+}
+social > div:nth-child(4n):hover
+{
+background-color:#0b80d0;
+}
+
+
+
+
+
+
+@media all and (max-width:600px)
+{
+nav ul
+    {
+    flex-wrap:wrap;
+    height:300px;
+    }
+    nav ul li
+    {
+    flex-basis:100%;
+    }
+    
+    
+    
+}
+@media all and (max-width:800px)
+{
+
+    social
+    {
+    flex-wrap:wrap;
+    }
+    social > div
+    {
+    flex-basis:50%;
+    }
+    
+    
+}
